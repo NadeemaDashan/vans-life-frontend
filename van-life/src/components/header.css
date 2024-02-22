@@ -1,0 +1,30 @@
+
+
+.header-container{
+    width: 100%;
+    display: flex;
+}
+
+
+#logo{
+    width: 30%;
+    padding: 5%;
+    object-fit: cover;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.links{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(77, 77, 77, 1);
+}
