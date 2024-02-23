@@ -30,6 +30,27 @@
 }
 
 .explore-vans{
-    display: flex;
-    flex-direction: column;
+    width: 90%;
+    background-color: rgba(255, 204, 141, 1);
+    gap: 20px;
+    margin: 5%;
+    margin-top: 10%;
+    padding: 10%;
+}
+
+#btn-explore-van{
+    border: none;
+    background-color: black;
+    border-radius: 9px;
+    width: 30%;
+    padding: 2% 5%;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#heading{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
 }
