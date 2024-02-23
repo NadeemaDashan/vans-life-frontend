@@ -19,9 +19,7 @@ export default function Home(){
                     <p id="para-on-image">You got the travel plans, we got the travel vans.</p>
                     <Link to="/vans"><button id="btn-find-van">Find Your Van</button></Link>
                 </div>
-                
             </div>
-            
             
         </div>
      

@@ -1,0 +1,35 @@
+.about-img{
+    margin-top: 3%;
+    object-fit: cover;
+    height: 48vw;
+}
+
+#about-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-para{
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    font-family:sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.para-heading-about{
+    font-weight: 800;
+}
+
+#para-about{
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.explore-vans{
+    display: flex;
+    flex-direction: column;
+}
