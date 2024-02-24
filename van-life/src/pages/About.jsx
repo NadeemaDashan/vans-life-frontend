@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Image from "../assets/image.jpg"
 import "./about.css"
+import { Link } from "react-router-dom";
 
 export default function About() {
     return (
@@ -22,7 +23,9 @@ export default function About() {
             <div className="explore-vans col-10 ol-xs-12">
                 <h2 id="heading">Your destination is waiting.<br/>Your van is ready.</h2>
                 <div className=" col-xxs-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-md-8">
-                <button id="btn-explore-van">Explore Our Vans</button>
+                <Link to="/vans">
+                    <button id="btn-explore-van">Explore Our Vans</button>
+                </Link>   
                 </div>
                 
             </div>
