@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Vans from "./pages/Vans"
 import VansDetails from "./pages/VanDetails"
+import Data from '../../Data'
 
 function App() {
   const [count, setCount] = useState(0)
