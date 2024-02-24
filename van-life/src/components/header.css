@@ -28,3 +28,10 @@
     text-decoration: none;
     color: rgba(77, 77, 77, 1);
 }
+
+
+#logo-heading{
+    margin: 3%;
+    font-weight: 900;
+    font-size: 27px;
+}
