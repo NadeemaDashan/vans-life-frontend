@@ -17,7 +17,13 @@ export default function Vans(){
     return(
         <div>
             <Header/>
-            <div className="vans row col-12">
+            <h2 className="vans-para col-10">Explore our van options</h2>
+            <div className="btn-filter col-10">
+                <button>Simple</button>
+                <button>Luxury</button>
+                <button>Rugged</button>
+            </div>
+            <div className="vans row">
              {array}
             </div>
            

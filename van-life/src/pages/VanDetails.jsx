@@ -6,7 +6,7 @@ export default function VanDetails() {
     return (
         <div className="van-detail-container">
             <Header />
-            <div className="filter col-xl-9">
+            <div className="filter">
                 <h1 id="fliter-heading">Explore our van options</h1>
             </div>
         </div>

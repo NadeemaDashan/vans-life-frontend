@@ -48,7 +48,7 @@
 
 #para-type{
     margin-top: 10%;
-    color: white;
+    color: rgba(255, 234, 208, 1);
     font-weight: 700;
     size: 18px;
     padding-top: 0px;
@@ -64,3 +64,27 @@
 #image-van{
     border-radius: 8px;
 }
+
+@media (max-width:1000px) {
+    #image-van{
+        border-radius: 8px;
+        width: 250px;
+    }
+    .item{
+        width: 250px;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width:425px) {
+    #image-van{
+        border-radius: 8px;
+        width: 200px;
+    }
+    .item{
+        width: 200px;
+        margin-left: 0;
+    }
+
+}
+
