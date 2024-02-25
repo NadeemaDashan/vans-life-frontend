@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./vanItem.css"
 import { Link } from "react-router-dom";
+import AOS from "aos";
 
 
 export default function VanItems(props) {
+    useEffect(()=>{
+        AOS.init();
+    },[])
     return (
-        <div className="item">
+        <div data-aos="fade-up" data-aos-duration="1000" className="item">
             <Link id="link-van-description" to={`/vans/${props.id}`}>
                 <img id="image-van" src={props.img} width="300px" alt="van image" />
                 <div className="price">

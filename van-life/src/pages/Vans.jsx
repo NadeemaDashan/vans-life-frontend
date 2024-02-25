@@ -17,8 +17,8 @@ export default function Vans(){
     return(
         <div>
             <Header/>
-            <h2 className="vans-para col-10">Explore our van options</h2>
-            <div className="btn-filter col-10">
+            <h2 data-aos="fade-up" data-aos-duration="1000" className="vans-para col-10">Explore our van options</h2>
+            <div data-aos="fade-up" data-aos-duration="1000" className="btn-filter col-10">
                 <button>Simple</button>
                 <button>Luxury</button>
                 <button>Rugged</button>
