@@ -26,7 +26,7 @@ export default function VanDetails() {
             </div>
             <div className="van-details-container row">
                 <div data-aos="fade-left" data-aos-duration="1000" className="van-image-container m-3 col-lg-5">
-                    <img className="img-fluid" src={`../../public/${van.img}`} alt={"Image of the van selected"} />
+                    <img className="img-fluid" src={`/${van.img}`} alt={"Image of the van selected"} />
                 </div>
                 <div  data-aos="fade-right" data-aos-duration="1000" className="van-description-container m-3  col-lg-5">
                     <div className={van.type === "Simple" ? "type-simple" : van.type === "Luxury" ? "type-luxury" : "type-rugged"}>
