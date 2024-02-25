@@ -9,7 +9,7 @@ export default function Vans(){
         return(
         <div className="van-items">
         <VanItems
-         key={data.name}
+         key={data.id}
          {...data}
          />
         </div>

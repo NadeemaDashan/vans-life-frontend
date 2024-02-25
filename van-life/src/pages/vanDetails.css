@@ -1,3 +1,109 @@
 #fliter-heading{
     font-weight: 700;
 }
+
+#back{
+    display: inline;
+    margin-left: 3%;
+    border-bottom: 1px solid black;
+}
+
+.van-details-container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#van-desription-heading{
+    font-weight: 700;
+}
+
+
+@media (max-width:880px) {
+    .back-container{
+        margin-top: 10%;
+    }
+    
+}
+
+#description-para-type{
+    color: rgba(255, 234, 208, 1);
+    font-weight: 700;
+    size: 18px;
+    padding-top: 0px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.van-description-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#van-description-paragraph{
+    font-size: 22px;
+}
+
+
+#price-description{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.type-simple{
+    background-color: rgba(225, 118, 84, 1);
+    display: flex;
+    width: 35%;
+    height: 5.5vw;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.type-rugged{
+    background-color: rgba(17, 94, 89, 1);
+    display: flex;
+    width: 35%;
+    height: 5.5vw;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.type-luxury{
+    background-color: rgba(22, 22, 22, 1);
+    display: flex;
+    width: 35%;
+    height: 5.5vw;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+@media (max-width:1085px) {
+    #van-description-paragraph{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:880px) {
+    .van-description-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+}
+
+
+.btn-rent-van{
+    background-color: rgba(255, 140, 56, 1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+}
