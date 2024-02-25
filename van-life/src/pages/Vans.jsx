@@ -7,7 +7,7 @@ import "./vans.css"
 export default function Vans(){
     const array=Data.map((data)=>{
         return(
-        <div className="van-items-container col-3">
+        <div className="van-items">
         <VanItems
          key={data.name}
          {...data}
@@ -17,7 +17,7 @@ export default function Vans(){
     return(
         <div>
             <Header/>
-            <div className="vans col-12">
+            <div className="vans row col-12">
              {array}
             </div>
            

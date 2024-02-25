@@ -1,7 +1,12 @@
 .van-item-container{
-    display: flex;
+    display: grid;
+    object-fit:inherit;
+    grid-row:auto;
+
 }
 
 .vans{
     display: flex;
+    border: 2px solid black;
+    object-fit: cover;
 }
